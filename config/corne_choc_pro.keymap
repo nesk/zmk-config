@@ -115,15 +115,15 @@
             >;
         };
 
-        numpad_layer {
+        onepad_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &trans
-                        &trans  &trans  &trans                  &kp KP_NUMBER_0  &trans           &trans
+&trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)   &kp LG(R)  &kp LG(T)  &trans  &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &trans
+&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)   &kp LG(F)  &kp LG(G)  &trans  &trans  &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)  &kp LG(B)                  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &trans
+                              &kp ESCAPE  &trans     &trans                     &kp KP_NUMBER_0  &trans           &trans
             >;
 
-            label = "NUMPAD";
+            label = "ONEPAD";
         };
 
         symbol_layer {
