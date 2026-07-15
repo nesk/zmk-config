@@ -138,7 +138,7 @@
             bindings = <
 &trans  &kp EXCL   &kp AT    &kp HASH    &kp DLLR   &kp PRCNT  &trans  &trans  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
 &trans  &kp LCTRL  &kp LALT  &kp LGUI    &kp LSHFT  &trans     &trans  &trans  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
-&trans  &trans     &trans    &trans      &trans     &trans                     &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
+&trans  &kp GRAVE  &trans    &trans      &trans     &trans                     &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
                              &kp ESCAPE  &mo 4      &trans                     &trans     &trans     &trans
             >;
         };
